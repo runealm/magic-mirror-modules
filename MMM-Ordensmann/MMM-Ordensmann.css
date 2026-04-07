@@ -1,0 +1,39 @@
+.ordensmann-wrapper {
+    background: transparent;
+    padding: 8px 12px;
+    text-align: center;
+}
+
+.ordensmann-title {
+    font-size: 1em;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.8);
+    margin-bottom: 6px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.ordensmann-row {
+    font-size: 1em;
+    margin: 3px 0;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.8);
+}
+
+/* Nåværende måned — tydelig hvit */
+.ordensmann-row.current .ordensmann-month,
+.ordensmann-row.current .ordensmann-sep,
+.ordensmann-row.current .ordensmann-name {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+/* Neste måned — litt dempet */
+.ordensmann-row.next .ordensmann-month,
+.ordensmann-row.next .ordensmann-sep,
+.ordensmann-row.next .ordensmann-name {
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: normal;
+    font-size: 1em;
+}

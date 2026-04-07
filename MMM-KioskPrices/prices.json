@@ -1,0 +1,8 @@
+[
+    { "name": "Vaffel",         "price": 20 },
+    { "name": "Brus",           "price": 25 },
+    { "name": "Kaffe",          "price": 15 },
+    { "name": "Sjokolade",      "price": 20 },
+    { "name": "Bolle",          "price": 15 },
+    { "name": "Vann",           "price": 10 }
+]
